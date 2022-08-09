@@ -1,0 +1,5 @@
+cloudpickle
+mlflow
+numpy
+psycopg2
+scikit-learn
