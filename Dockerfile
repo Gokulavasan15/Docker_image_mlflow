@@ -4,8 +4,6 @@ ARG RUN_ID
 
 ARG MODEL_NAME
 
-ENV PATH /usr/local/bin:$PATH
-
 ENV HOME /home/mlflowserver
 
 COPY ./requirements.txt /tmp

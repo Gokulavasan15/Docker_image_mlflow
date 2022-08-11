@@ -4,3 +4,5 @@ numpy
 psycopg2
 scikit-learn
 flask
+Flask-SQLAlchemy
+msilib.schema
