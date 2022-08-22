@@ -14,7 +14,7 @@ RUN mkdir -p ${HOME}/mlflow/mlruns &&\
     apt-get update &&\
     apt-get install -y gcc git &&\
     apt-get -y install cron &&\
-    chmod 0644 /etc/cron.d/hello-cron &&\
+    chmod 0644 /etc/cron.d/daily_run &&\
     touch /var/log/cron.log
     
 
