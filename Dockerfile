@@ -5,7 +5,7 @@ ARG RUN_ID
 ARG MODEL_NAME
 
 ENV HOME /home/mlflowserver
-ADD daily_run /etc/cron.d/daily_run
+ADD crontab /etc/cron.d/daily_run
 COPY ./requirements.txt /tmp
 
 RUN mkdir -p ${HOME}/mlflow/mlruns &&\
