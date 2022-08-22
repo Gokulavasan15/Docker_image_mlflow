@@ -1,3 +1,2 @@
-
-
-*/2 * * * * /usr/local/bin/python /home/mlflowserver/mlflow/test.py >> /var/log/cron.log 2>&
+*/2 * * * * root /usr/local/bin/python /home/mlflowserver/mlflow/test.py >> /var/log/cron.log 2>&
+#
