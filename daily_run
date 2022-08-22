@@ -1,1 +1,1 @@
-30 18 * * * /usr/local/bin/python /home/mlflowserver/mlflow/test.py >> /var/log/cron.log 2>&
+*/5 * * * * /usr/local/bin/python /home/mlflowserver/mlflow/test.py >> /var/log/cron.log 2>&
